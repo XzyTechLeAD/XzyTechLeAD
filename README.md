@@ -1,5 +1,10 @@
 # Oliver Wright
 
+<p align="center">
+  <img src="assets/dev_header.png" alt="Developer Terminal" width="100%" style="border-radius: 10px;">
+</p>
+
+
 Systems & backend engineer based in London, UK.  
 Focusing on high-throughput ASGI runtimes, event loop internals, and API boundary resilience.
 
