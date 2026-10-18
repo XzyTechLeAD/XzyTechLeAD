@@ -1,18 +1,25 @@
-# Hi, I'm Oliver Wright 👋
+# Oliver Wright
 
-Systems & backend engineer based in **London, United Kingdom**.
+Systems & backend engineer based in London, UK.  
+Focusing on high-throughput ASGI runtimes, event loop internals, and API boundary resilience.
 
-I focus on **asynchronous runtime architecture**, **ASGI protocols**, **event-loop throughput**, and defensive API contracts across the Python ecosystem.
+---
+
+### 🚀 Technical Focus
+
+| Subsystem | Area |
+|---|---|
+| **ASGI Servers & Frameworks** | Protocol compliance, lifespan events, and websocket handshakes |
+| **HTTP Parsing & Streaming** | Chunked transfer encoding, backpressure, and request body streaming |
+| **Middleware Architecture** | Error propagation, context propagation, and request-scoped state |
 
 ---
 
-### 🛠️ Core Focus & Engineering Discipline
-- **ASGI & Web Infrastructure**: High-concurrency event loops, middleware layers, connection pooling (`uvicorn`, `starlette`, `litestar`).
-- **Defensive API Contracts**: Zero unhandled exceptions, deterministic status codes, robust boundary validation.
-- **Pre-Flight Rigor**: 100% green local validation, compiler & linter invariance, zero-regression test coverage.
+### ⚙️ Engineering Approach
 
-### ⚙️ Tooling & Validation
-All my contributions adhere to clean diff minimization and pre-flight validation standards.
+1. **Specification Compliance**: Strict adherence to ASGI 3.0 and HTTP/1.1 / HTTP/2 standards.
+2. **Graceful Degradation**: Robust timeout handling and defensive exception shielding.
+3. **Performance Profiling**: Flamegraphs and allocation tracing to eliminate bottleneck hot-paths.
 
 ---
-*Powered by continuous pre-flight verification & green-first engineering standards.*
+*Python • ASGI • Starlette • Uvicorn • WebSockets • Microservices*
